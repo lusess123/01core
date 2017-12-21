@@ -1,0 +1,22 @@
+{
+  "name": "01core111",
+  "version": "2.0.100-fff221",
+  "publishConfig": {
+    "registry": "http://192.168.69.42:8081/repository/npmhosted/"
+  },
+  "scripts": {
+    "lines": "find src -name \"*.js\" | xargs cat | wc -l",
+    "prepublish": "echo '发布之前的逻辑'",
+    "postpublish": "echo '发布之后的逻辑'"
+  },
+  "dependencies": {
+    "@types/jquery": "^3.2.17",
+    "@types/react": "^16.0.30",
+    "@types/react-dom": "^16.0.3",
+    "jquery": "^3.2.1",
+    "jquery-migrate": "^3.0.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "rxjs": "^5.5.5"
+  }
+}

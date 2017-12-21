@@ -1,0 +1,29 @@
+
+{
+  "compilerOptions": {
+   // "outDir": "../../../../../../Products/_output/Web/Ataw.WebSite/ts/",
+      "outDir": "./dist/",
+      "declarationDir":"./type/",
+      "sourceMap": true,
+      "noImplicitAny": false,
+      "module": "amd",
+      //"target": "es3",
+      "jsx": "react",
+      "traceResolution":false,
+     // "outFile":"../../../../../../Products/_output/Web/Ataw.WebSite/ts/01core.js",
+      "declaration": true,
+      "noEmitOnError":true,
+      "experimentalDecorators": true,
+      "moduleResolution": "node",
+      "pretty":true,
+      "target": "es5",
+      "lib": [ "es6", "dom" ],
+      // "typeRoots": [ "./node_modules/@reactivex", "./tt" ]
+      //"types": ["react"],
+       "baseUrl": "../../../../../../Front/Typings"
+       
+  },
+  "include": [
+      "./01core/**/*","./index.tsx"
+  ]
+}
