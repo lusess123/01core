@@ -1,10 +1,10 @@
 ﻿
 
-import urlFile = require("./Util");
-import Util = urlFile.Core.Util;
-import eventFile = require("./Event");
-import rxjs = require("rxjs");
-import serviceFile = require("./Service");
+import * as urlFile from "./Util";
+import  Util = urlFile.Core.Util;
+import *  as eventFile from "./Event";
+import * as  rxjs  from "rxjs";
+import  * as serviceFile from "./Service";
 
 export module Core {
 

@@ -1,5 +1,5 @@
-﻿import urlFile = require("./Url");
-import utilFile = require("./Util");
+﻿import * as  urlFile  from "./Url";
+import *  as utilFile  from  "./Util";
 
 export interface IPrintLocal {
     IsImmediately?: boolean;

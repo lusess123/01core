@@ -1,5 +1,5 @@
-﻿import rxjs = require("rxjs");
-import JQuery = require("jquery");
+﻿import * as rxjs  from "rxjs";
+import * as  JQuery from  "jquery";
 export class App {
     private static fAppEvent: Core.IEvent = null;
     private static fUniId: number = 0;

@@ -1,6 +1,6 @@
 ﻿
-import urlFile = require("./Url");
-import utilFile = require("./Util");
+import * as  urlFile from "./Url";
+import * as  utilFile from "./Util";
 export class WebApp {
 
     public notifyMesg(msg: string) {

@@ -1,5 +1,5 @@
-﻿import React = require("react");
-import ReactDOM = require("react-dom");
+﻿import  * as React from "react";
+import * as  ReactDOM  from "react-dom";
 
 export class DomReact<P extends IDomProps<IDomVm>, S extends any> extends React.Component<P, S>{
     public render(): React.ReactElement<any> {

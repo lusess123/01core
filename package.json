@@ -6,12 +6,13 @@
   },
   "scripts-info": {
     "info": "列出所有的命令",
-    "clean_dist": "清空生成目录"
+    "clean_dist": "清空生成目录",
+    "compile_dist_cjs": "编译成cjs"
   },
   "scripts": {
     "info": "npm-scripts-info",
     "clean_dist": "shx rm -rf ./dist",
-
+    "compile_dist_cjs":"tsc -p ./tsconfig/tsconfig.cjs.json ",
 
     "lines": "find src -name \"*.js\" | xargs cat | wc -l",
     "prepublish": "echo '发布之前的逻辑'",

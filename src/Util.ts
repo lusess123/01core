@@ -1,9 +1,9 @@
 ﻿
-import React = require("react");
-import ReactDOM = require("react-dom");
+import  * as React from "react";
+import * as  ReactDOM  from "react-dom";
 
-import dom = require("./0Dom");
-import $ = require("jquery");
+import * as  dom  from"./0Dom";
+import * as $  from "jquery";
 
 export module Core {
 

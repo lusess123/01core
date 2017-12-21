@@ -1,18 +1,15 @@
 ﻿
 
-import React = require("react");
-import ReactDOM = require("react-dom");
+import  * as React from "react";
+import * as  ReactDOM  from "react-dom";
 
 // import akDispatcher = require("./AkDispatcher"); import AkDispatcher =
 // akDispatcher.Core.AkDispatcher; import AkBaseLegal =
 // require("./../08legal/BaseLegal");
-import utilFile = require("./Util");
-import eventFile = require("./Event");
-import iocFile = require("./Ioc");
-
-import $ = require("jquery");
-
-
+import * as  utilFile from "./Util";
+import * as eventFile from "./Event";
+import  * as iocFile from "./Ioc";
+import  * as $ from  "jquery";
 //import jqueryExtend = require("./JQueryExtend");
 export namespace Core {
 

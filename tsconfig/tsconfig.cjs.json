@@ -1,0 +1,10 @@
+
+{
+    "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+      "outDir": "./../dist/cjs",
+      "declarationDir":"./../type/cjs",
+      "module": "es2015",
+      "target": "es6"
+  }
+}
