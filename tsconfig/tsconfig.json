@@ -2,8 +2,8 @@
 {
   "compilerOptions": {
    // "outDir": "../../../../../../Products/_output/Web/Ataw.WebSite/ts/",
-      "outDir": "./dist/",
-      "declarationDir":"./type/",
+      "outDir": "./../dist/",
+      "declarationDir":"./../type/",
       "sourceMap": true,
       "noImplicitAny": false,
       "module": "amd",
@@ -20,10 +20,10 @@
       "lib": [ "es6", "dom" ],
       // "typeRoots": [ "./node_modules/@reactivex", "./tt" ]
       //"types": ["react"],
-       "baseUrl": "../../../../../../Front/Typings"
+      // "baseUrl": "../../../../../../Front/Typings"
        
   },
   "include": [
-      "./01core/**/*","./index.tsx"
+      "./../src/**/*"
   ]
 }

@@ -1,4 +1,4 @@
-﻿/// <reference path="../../typings/0type/type.d.ts" />
+﻿
 
 import urlFile = require("./Util");
 import Util = urlFile.Core.Util;
@@ -142,11 +142,11 @@ export module Core {
         JsAjaxFun: (aRR: IJsResponseResult, obj_Fun) => {
             //  $.HideAjax();
             Util.ToggleLoading(false);
-            if (aRR.Content && aRR.Content != "") {
-                var _fun = $.AKjs.JsAjaxFun[aRR.Content];
+            if (aRR.Content && aRR.Content != ""&& $ && $["AKjs"]&& $["AKjs"]["JsAjaxFun"]) {
+                var _fun = $["AKjs"]["JsAjaxFun"][aRR.Content];
                 if (_fun) {
                     var obj = aRR.Obj;
-                    var _res = $.AKjs.JsAjaxFun[aRR.Content](obj);
+                    var _res = $["AKjs"]["JsAjaxFun"][aRR.Content](obj);
                     if (_res) {
                         if (obj_Fun)
                             obj_Fun(_res);

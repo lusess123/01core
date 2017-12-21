@@ -4,7 +4,15 @@
   "publishConfig": {
     "registry": "http://192.168.69.42:8081/repository/npmhosted/"
   },
+  "scripts-info": {
+    "info": "列出所有的命令",
+    "clean_dist": "清空生成目录"
+  },
   "scripts": {
+    "info": "npm-scripts-info",
+    "clean_dist": "shx rm -rf ./dist",
+
+
     "lines": "find src -name \"*.js\" | xargs cat | wc -l",
     "prepublish": "echo '发布之前的逻辑'",
     "postpublish": "echo '发布之后的逻辑'"
@@ -18,5 +26,14 @@
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "rxjs": "^5.5.5"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.53",
+    "iconv-lite": "^0.4.19",
+    "typescript": "~2.6.0",
+    "npm-scripts-info": "^0.3.4",
+    "npm-run-all": "^4.0.2",
+    "shx": "^0.2.2"
+
   }
 }
