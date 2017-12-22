@@ -11,7 +11,7 @@ import * as eventFile from "./Event";
 import  * as iocFile from "./Ioc";
 import  * as $ from  "jquery";
 //import jqueryExtend = require("./JQueryExtend");
-export namespace Core {
+export namespace Core  {
 
    /**
     * 呈现react视图的接口
