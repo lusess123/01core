@@ -1,10 +1,10 @@
 
 {
   "compilerOptions": {
-      "outDir": "./../dist/",
+      "outDir": "./../spec_cjs/",
       "sourceMap": true,
       "noImplicitAny": false,
-      "module": "amd",
+      "module": "umd",
       "jsx": "react",
       "traceResolution":false,
       "declaration": true,
@@ -12,11 +12,11 @@
       "experimentalDecorators": true,
       "moduleResolution": "node",
       "pretty":true,
-      "target": "es5",
+      "target": "es6",
       "lib": [ "es6", "dom" ]
        
   },
   "include": [
-      "./../src/**/*"
+      "./**/*.tsx"
   ]
 }

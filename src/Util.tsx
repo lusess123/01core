@@ -5,7 +5,7 @@ import * as  ReactDOM  from "react-dom";
 import * as  dom  from"./0Dom";
 import * as $  from "jquery";
 
-export module Core {
+export namespace Core {
 
     export class Util {
 

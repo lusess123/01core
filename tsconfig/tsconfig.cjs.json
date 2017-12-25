@@ -4,7 +4,7 @@
   "compilerOptions": {
       "outDir": "./../dist/cjs",
       "declarationDir":"./../dist/cjs",
-      "module": "es2015",
+      "module": "umd",
       "target": "es6"
   }
 }
