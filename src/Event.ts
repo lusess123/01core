@@ -1,5 +1,7 @@
 ﻿import * as rxjs  from "rxjs";
 import * as  JQuery from  "jquery";
+
+import * as ddd from "rxjs/util/assign";
 export class App {
     private static fAppEvent: Core.IEvent = null;
     private static fUniId: number = 0;
@@ -28,6 +30,7 @@ export namespace Core {
         private fEmit: JQuery = null;
         public FetchEmit()
         {
+            // rxjs.
             if (!this.fEmit) {
                 this.fEmit = $({});
                 //this.fEmit.setMaxListeners(0);

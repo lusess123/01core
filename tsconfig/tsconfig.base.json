@@ -3,7 +3,7 @@
   "compilerOptions": {
    // "outDir": "../../../../../../Products/_output/Web/Ataw.WebSite/ts/",
       "outDir": "./../dist/",
-      "declarationDir":"./../type/",
+     // "declarationDir":"./../type/",
       "sourceMap": true,
       "noImplicitAny": false,
       "module": "amd",
