@@ -32,7 +32,7 @@
     
 
     "lines": "find src -name \"*.js\" | xargs cat | wc -l",
-    "prepublish": "echo '发布之前的逻辑'",
+    "prepublish": "echo '发布之前的逻辑' ",
     "postpublish": "echo '发布之后的逻辑'"
   },
   "dependencies": {
