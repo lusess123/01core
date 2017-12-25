@@ -1,5 +1,5 @@
 {
-  "name": "akjs-01core",
+  "name": "01core",
   "version": "0.0.1",
   "publishConfig": {
     "registry": "http://192.168.69.42:8081/repository/npmhosted/"
