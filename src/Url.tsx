@@ -6,6 +6,13 @@ import *  as eventFile from "./Event";
 import * as  rxjs  from "rxjs";
 import  * as serviceFile from "./Service";
 
+//import  jsdom  = require('jsdom');
+import * as $  from "jquery";
+
+//const $ = require("jquery")( new jsdom.JSDOM(`...`).window);
+
+var window =    window ? window :  {};
+
 export module Core {
 
 
@@ -51,23 +58,7 @@ export module Core {
 
     export let IsHasSwitchToggle: boolean = false;
 
-    $(function () {
-
-        window.onhashchange = () => {
-
-            if (!IsHasSwitchToggle) {
-                var hash = location.hash;
-                // alert(hash);
-                eventFile.App.GetAppEvent().emit("refeshMarksys");
-                Core.AkUrl.Current().fEmit.emit("hashchange", hash);
-            } else {
-                IsHasSwitchToggle = false;
-            }
-        };
-
-
-      
-    });
+    
     export  enum JsActionType {
         Alert = 1,
         Reload = 2,
